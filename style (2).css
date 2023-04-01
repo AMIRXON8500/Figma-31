@@ -1,0 +1,248 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.header .one .list .lisItem .item {
+    transition: 2s;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    color: #002203;
+}
+.header .two .list .listItem .item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    color: #505038;
+}
+.header .two .button {
+    font-size: 1s;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    margin-left: 40px;
+    box-sizing: border-box;
+    font-size: large;
+    transition: 1s;
+    cursor: pointer;
+    }
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section .leftSide {
+        width: 50%;
+        padding-left: 100px;
+    }
+    .section .leftSide .button {
+        padding: 15px 20px;
+        border-radius: 30px;
+        border: none;
+        background-color: green;
+        color: white;
+        cursor: pointer;
+    }
+    .section .leftSide .buttonTwo {
+        padding: 15px 20px;
+        border-radius: 30px;
+        border: none;
+        /* background-color: green; */
+        color: black;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .section .rightSide {
+        height: 500px;
+        width: 100%;
+        background-image: url(./img/IMAGE\ 1.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .section .rightSide {
+        height: 500px;
+        width: 100%;
+        background-image: url(./img/IMAGE\ 1.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .section-two {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 85px 200px;
+    }
+    .section-two .imgsOne {
+        display: flex;
+        align-items: center;
+        column-gap: 65px;
+    }
+    .our {
+        margin-left: 40px;
+    }
+    .section-three {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .img-big {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 1120px; */
+        height: 640px
+        }
+        .section-four {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .section-five {
+            flex-direction: row-reverse;
+        }
+        .section-five {
+            flex-direction: row-reverse;
+        }
+        .black-fon {
+            margin: 110px 0;
+            background: #191610;
+            border-radius: 0px;
+            padding: 130px 0;
+            padding-left: 40px;
+        }
+        .black-fon .green-word {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.18px;
+            color: #00780C;
+        }
+        .black-fon .title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 40px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            width: 481px;
+            margin-top: 3px;
+            margin-bottom: 42px;
+        }
+        .black-fon .text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.18px;
+            color: #DAD5C6;
+            width: 478px;
+            margin-bottom: 29px;
+        }
+        .black-fon .galichka p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 0.18px;
+            color: #DAD5C6;
+        }
+        .black-fon .button {
+        background: #00780C;
+    border-radius: 88px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+    padding: 2px 16px;
+    border: none;
+    margin-top: 44px;
+    cursor: pointer;
+     }
+     section-seven {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .section-seven .leftSide .green-word {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.18px;
+        color: #00780C;
+    }
+    .section-seven .leftSide .title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        color: #002203;
+        width: 522px;
+        margin-top: 3px;
+        margin-bottom: 42px;
+    }
+    .section-seven .leftSide .text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.18px;
+        color: #423F35;
+        width: 448px;
+    }
+    .section-seven .leftSide .button {
+        border-radius: 88px;
+        background: #F8F8F5;
+        border: none;
+        padding: 2px 16px;
+        margin-top: 44px;
+        cursor: pointer;
+    }
+    .section-seven .rightSide {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 40%;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
